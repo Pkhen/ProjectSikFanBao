@@ -6,7 +6,7 @@ public class Gun : MonoBehaviour
 	public Rigidbody2D rocket;				// Prefab of the rocket.
 	public float speed = 20f;				// The speed the rocket will fire at.
 	public bool autoShoot = false;
-
+	 
 	private PlayerControl playerCtrl;		// Reference to the PlayerControl script.
 	private Animator anim;					// Reference to the Animator component.
 
