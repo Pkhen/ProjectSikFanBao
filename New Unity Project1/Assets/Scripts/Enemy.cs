@@ -11,6 +11,7 @@ public class Enemy : MonoBehaviour
 	public GameObject hundredPointsUI;	// A prefab of 100 that appears when the enemy dies.
 	public float deathSpinMin = -100f;			// A value to give the minimum amount of Torque when dying
 	public float deathSpinMax = 100f;			// A value to give the maximum amount of Torque when dying
+	public Player playerObject;
 
 
 	private SpriteRenderer ren;			// Reference to the sprite renderer.
@@ -18,7 +19,7 @@ public class Enemy : MonoBehaviour
 	private bool dead = false;			// Whether or not the enemy is dead.
 	private Score score;				// Reference to the Score script.
 
-	
+
 	void Awake()
 	{
 		// Setting up the references.
