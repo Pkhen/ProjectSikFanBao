@@ -79,4 +79,5 @@
 'Assets/Scripts/DestroyByContact.cs'
 'Assets/Scripts/GameController.cs'
 'Assets/Scripts/Mover.cs'
+'Assets/Scripts/TroopButtonScript.cs'
 'Assets/Scripts/Unit.cs'
